@@ -1,8 +1,8 @@
 import { Contact } from './contact';
 
 export const CONTACTS: Contact[] = [
-	{firstName:"Nupur", lastName: "Srivastava", phone: "12345678", email: "abc@def.com"},
-		{firstName:"Dipankit", lastName: "Saha", phone: "12345678", email: "ghi@def.com"},
-		{firstName:"Dolly", lastName: "Srivastava", phone: "12345678", email: "gfg@def.com"},
-		{firstName:"K K", lastName: "Srivastava", phone: "12345678", email: "kk@def.com"}
+	{firstName:"John", lastName: "Snow", phone: "12345678", email: "abc@def.com"},
+		{firstName:"Shallow", lastName: "White", phone: "12345678", email: "ghi@def.com"},
+		{firstName:"Emma", lastName: "Watson", phone: "12345678", email: "gfg@def.com"},
+		{firstName:"Harry", lastName: "Potter", phone: "12345678", email: "kk@def.com"}
 ];
