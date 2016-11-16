@@ -1,0 +1,69 @@
+html{
+	padding: 3%;
+}
+.nav{
+	list-style: none;
+	margin: 16px 0;
+	padding-bottom: 5%;
+	text-align: center;
+}
+.nav li{
+	cursor: pointer;
+	trasition: padding 0.3s;
+}
+.nav li span:hover{
+	padding-left: 8px;
+	color: #233dcb;
+	border-left: 3px #233dcb solid;
+}
+.clicked{
+	color: #233dcb;
+	font-weight: bold;
+}
+.show-contact-details label{
+	display: inline-block;
+	width: 140px;
+}
+.show-contact-details input{
+	width: 250px;
+}
+/*#new-contact-form label{
+	display: inline-block;
+	width: 140px;
+}
+#new-contact-form input{
+	width: 250px;
+}*/
+#newContactForm .ng-invalid{
+	border: 1px solid red;
+}
+#newContactForm span{
+	color: red;
+}
+#new-contact-form div, .show-contact-details div{
+	margin: 15px 0;
+}
+.cursor{
+	cursor: not-allowed;
+}
+.contact-list-heading{
+	color: burlywood;
+	margin-top: 5%;
+}
+.nav{
+	background-color: ghostwhite;
+	margin: 0px;
+    padding: 0%;
+    font-size: 20px;
+}
+.errorDiv{
+	padding: 0;
+    width: 26%;
+    margin-left: 17%;
+}
+#new-contact-form input.ng-valid{
+	border-left: 5px solid green;
+}
+#new-contact-form input.ng-invalid{
+	border-left: 5px solid red;
+}
